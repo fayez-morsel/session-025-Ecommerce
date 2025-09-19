@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+.price-range-thumb {
+  --thumb-size: 20px;
+}
+
+.price-range-thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: var(--thumb-size);
+  width: var(--thumb-size);
+  border-radius: 9999px;
+  background: #0ea5e9;
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 0 2px rgba(14, 165, 233, 0.25);
+  cursor: pointer;
+}
+
+.price-range-thumb::-webkit-slider-runnable-track {
+  height: 4px;
+  background: transparent;
+}
+
+.price-range-thumb::-moz-range-thumb {
+  height: var(--thumb-size);
+  width: var(--thumb-size);
+  border-radius: 9999px;
+  background: #0ea5e9;
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 0 2px rgba(14, 165, 233, 0.25);
+  cursor: pointer;
+}
+
+.price-range-thumb::-moz-range-track {
+  height: 4px;
+  background: transparent;
+}
