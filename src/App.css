@@ -4,7 +4,6 @@
   --thumb-size: 20px;
 }
 
-
 .price-range-thumb::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: var(--thumb-size);
